@@ -10,6 +10,7 @@ public class BrokenSet {
 	public static void main(String[] args) {
 		List<String> list = new ArrayList<String>();
 		list.add("cat");
+		list.add("fish");
 		
 		Set<List<String>> set = new HashSet<List<String>>();
 		set.add(list);
