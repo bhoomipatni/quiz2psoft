@@ -11,6 +11,8 @@ public class BrokenSet {
 		List<String> list = new ArrayList<String>();
 		list.add("cat");
 		list.add("fish");
+		list.add("cow");
+		list.add("dog");
 		
 		Set<List<String>> set = new HashSet<List<String>>();
 		set.add(list);
