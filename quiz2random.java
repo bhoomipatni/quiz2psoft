@@ -13,7 +13,6 @@ public class BrokenSet {
 		list.add("fish");
 		list.add("cow");
 		list.add("dog");
-		list.add("bird");
 		
 		Set<List<String>> set = new HashSet<List<String>>();
 		set.add(list);
